@@ -811,16 +811,16 @@ footer {
     }
 
     p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: var(--clr-grey-1);
     }
 
 
 
-    /*================= Nav ===========*/
+    /*========**====== Nav ====**=====*/
 
 
-    /*================= Features ===========*/
+    /*========**===== Features ======**===*/
 
     .features__container {
         grid-template-columns: 1fr;
@@ -836,7 +836,7 @@ footer {
         font-size: 2rem;
     }
 
-    /*================= About ===========*/
+    /*========**====== About =====**====*/
 
     #about {
         padding: 5rem 0;
@@ -847,73 +847,84 @@ footer {
         gap: 3.5rem;
     }
 
-    .about__left h6 {
-        color: var(--clr-grey-1);
-    }
-
     .about__left h2 {
         width: 100%;
     }
 
-    .about__left p {
-        margin: 1rem 0 1.5rem;
-    }
-
-    /*================= Services ===========*/
-    #services {
-        background-color: var(--clr-2);
-    }
-
+    /*=======**======= Services =====**====*/
     .services__header {
-        text-align: center;
-        margin: 2rem 0 3rem;
-    }
-
-    .services__header h6 {
-        color: var(--clr-grey-1);
-    }
-
-    .services__header h3 {
-        padding: 1rem 0 1.5rem;
-    }
-
-    .services__header p {
-        width: 65%;
-        margin: 0 auto;
+        margin: 2rem 0 2.5rem;
     }
 
     .services__main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         gap: 2rem;
     }
 
     .service {
-        border: 2px solid var(--clr-grey-2);
-        padding: 1.5rem 1rem;
+        padding: 1rem;
     }
 
-    .service h5 {
-        margin: 1rem 0;
+    /*=========**===== Plans =======**==*/
+
+    .plans__header {
+        margin: 1rem 0 2.5rem;
     }
 
+    .plans__main {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 
+    /*========**======= Works ====**=====*/
 
+    .work__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
 
+    .work__left-img img {
+        width: 23rem;
+    }
 
-    /*=================  ===========*/
+    /*=========**==== Testimonials =====**====*/
+    .testimonials__header {
+        margin-bottom: 3rem;
+    }
 
+    .testimonials {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 
+    /*=======**======== Subscribe ====**=====*/
 
-    /*=================  ===========*/
+    .sub__left {
+        text-align: center;
+    }
 
+    .sub__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 
+    /*======**========= Contact =====**====*/
 
-    /*=================  ===========*/
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
 
+    .name-phone {
+        flex-wrap: wrap;
+        /* gap: 1rem; */
+        width: 100%;
+    }
 
+    .name-phone input {
+        width: 100%;
+    }
 
-    /*================= Footer  ===========*/
+    /*====**=========== Footer  =====**====*/
 
 
 }
