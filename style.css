@@ -932,6 +932,12 @@ footer {
         width: 100%;
     }
 
+    /*================= Contact Channels ===========*/
+    .channels__container {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
     /*====**=========== Footer  =====**====*/
 
     .footer__container {
