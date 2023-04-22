@@ -819,6 +819,13 @@ footer {
 
     /*========**====== Nav ====**=====*/
 
+    #hero {
+        padding: 3rem 0;
+    }
+
+    .hero__left {
+        width: 100%;
+    }
 
     /*========**===== Features ======**===*/
 
@@ -925,6 +932,30 @@ footer {
     }
 
     /*====**=========== Footer  =====**====*/
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        /* place-items: center; */
+        text-align: center;
+        gap: 2.5rem;
+    }
+
+    .footer__socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__sub {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__sub input {
+        font-family: inherit;
+        padding: 1.05rem 1rem;
+    }
+
 
 
 }
