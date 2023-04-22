@@ -892,6 +892,7 @@ footer {
 
     .work__left-img img {
         width: 20rem;
+        margin: 0 auto;
     }
 
     /*=========**==== Testimonials =====**====*/
